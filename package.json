@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "google-map-react": "^2.1.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-icons": "^3.11.0",
+    "react-scripts": "3.4.3",
+    "recoil": "^0.0.10",
+    "twin.macro": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "src/tailwind.config.js"
+    }
   }
 }
